@@ -1,0 +1,27 @@
+Sure, here is a step-by-step guide on how to create visualizations in Tableau for the three additional questions related to your goal for the visualization:
+
+Question 1: Are there any specific musical genres that tend to perform well in the Eurovision Song Contest?
+
+Create a new worksheet in Tableau and add "Song.Quality" to the Columns shelf and "Genre" to the Rows shelf.
+Change the mark type to a bar chart.
+Sort the chart by descending order of "Song.Quality".
+Add "Year" to the Filters shelf and select the range of years you want to include in the visualization.
+Add a title and any necessary legends or labels to the chart.
+Question 2: Is there a correlation between a country's population and their success in the Eurovision Song Contest?
+
+Join the "Eurovision" and "Population" tables by "Country".
+Create a new calculated field that divides "Normalized.Points" by "Population" to get the "Points per capita" for each country.
+Create a new worksheet and add "Points per capita" to the Columns shelf and "Country" to the Rows shelf.
+Change the mark type to a scatter plot.
+Add "Year" to the Filters shelf and select the range of years you want to include in the visualization.
+Add a trend line to the scatter plot to visualize the correlation between "Points per capita" and "Year".
+Add a title and any necessary legends or labels to the chart.
+Question 3: Have there been any trends or patterns in the voting patterns of countries over time?
+
+Create a new worksheet in Tableau and add "Giver" to the Columns shelf and "Country" to the Rows shelf.
+Change the mark type to a heat map.
+Add "Year" and "Score" to the Marks card and select "SUM" for both.
+Add a title and any necessary legends or labels to the chart.
+Create a new dashboard and add the three worksheets you have created for the three questions above.
+Arrange the worksheets in a way that makes sense for your story or goal for the visualization.
+Add any necessary filters or interactions between the worksheets to provide a cohesive user experience.
